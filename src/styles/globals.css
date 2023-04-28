@@ -117,8 +117,8 @@
   }
   
   .formBody .formContainer .form button {
-    border: none;
-    padding: 1rem 1.5rem;
+   
+    padding: .7rem 1.5rem;
     font-size: 18px;
     cursor: pointer;
     color: white;
@@ -128,7 +128,7 @@
     width: 100%;
     box-shadow: 0 0 20px #170f4923;
     word-spacing: 5px;
-    outline: none;
+    border: 2px solid #4a3aff;
   }
   
   .formBody .formContainer .form button:disabled {
@@ -140,8 +140,8 @@
   .formBody .formContainer .form button.previous {
     color: #4a3aff;
     background: white;
-    outline: 2px solid #4a3aff;
-    outline-offset: -2px;
+    border: 2px solid #4a3aff;
+    
     box-shadow: 0 0 20px #170f490c;
   }
   
